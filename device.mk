@@ -46,6 +46,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
 
+# Overlay
+PRODUCT_PACKAGES += \
+    Mini5GFrameworks
+
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
