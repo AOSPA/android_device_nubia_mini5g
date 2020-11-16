@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1abf480c_e5a11fee",
+        "filename": "overlay/Mini5GFrameworks/res/values/dimens.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2020-11-16T02:49:32Z",
+      "side": 1,
+      "message": "No spaces here hurts my soul",
+      "revId": "569315e890eb66b6b8e6df8a7a0991671f19806a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
