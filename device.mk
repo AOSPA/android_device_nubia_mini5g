@@ -10,10 +10,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Platform
 TARGET_BOARD_PLATFORM := msmnile
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
-
 # Properties
 -include $(LOCAL_PATH)/system_prop.mk
 
