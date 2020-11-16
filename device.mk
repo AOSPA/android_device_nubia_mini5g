@@ -17,28 +17,6 @@ TARGET_BOARD_PLATFORM := msmnile
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-# Audio
-PRODUCT_PACKAGES += \
-    audio.a2dp.default
-
-# Camera
-PRODUCT_PACKAGES += \
-    Snap
-
-# Display
-PRODUCT_PACKAGES += \
-    libvulkan
-
-# HIDL
-PRODUCT_PACKAGES += \
-    libhidltransport \
-    libhwbinder
-
-# IMS
-PRODUCT_PACKAGES += \
-    ims-ext-common \
-    ims_ext_common.xml
-
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.ims.xml:system/etc/permissions/android.hardware.telephony.ims.xml
 
@@ -50,10 +28,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Mini5GFrameworks
 
-# Net
-PRODUCT_PACKAGES += \
-    netutils-wrapper-1.0
-
 # QTI Components
 TARGET_COMMON_QTI_COMPONENTS := \
     bt \
@@ -62,14 +36,3 @@ TARGET_COMMON_QTI_COMPONENTS := \
     perf \
     telephony \
     wfd
-
-# Telephony
-PRODUCT_PACKAGES += \
-    qti-telephony-utils \
-    qti_telephony_utils.xml \
-    qti-telephony-hidl-wrapper \
-    qti_telephony_hidl_wrapper.xml
-
-# TextClassifier
-PRODUCT_PACKAGES += \
-    textclassifier.bundle1
