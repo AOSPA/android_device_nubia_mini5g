@@ -43,12 +43,21 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.ims.xml:system/etc/permissions/android.hardware.telephony.ims.xml
 
 # Input
+PRODUCT_PACKAGES += \
+    AuxiliaryKeyHandler
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
 
 # Net
 PRODUCT_PACKAGES += \
+<<<<<<< HEAD
     netutils-wrapper-1.0
+=======
+    AOSPAMini5GAuxiliaryKeyHandler \
+    AOSPAMini5GSettings \
+    Mini5GFrameworks
+>>>>>>> 760a00d... mini5g: Add keyhandler targets and overlays
 
 # QTI Components
 TARGET_COMMON_QTI_COMPONENTS := \
