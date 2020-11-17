@@ -481,4 +481,12 @@
 
     <!-- Whether the new Auto Selection Network UI should be shown -->
     <bool name="config_enableNewAutoSelectNetworkUI">true</bool>
+
+    <!-- Auxiliary keyhandler -->
+    <string-array name="config_deviceKeyHandlerLibs" translatable="false">
+        <item>/system/priv-app/AuxiliaryKeyHandler/AuxiliaryKeyHandler.apk</item>
+    </string-array>
+    <string-array name="config_deviceKeyHandlerClasses" translatable="false">
+        <item>co.aospa.device.AuxiliaryKeyHandler</item>
+    </string-array>
 </resources>
