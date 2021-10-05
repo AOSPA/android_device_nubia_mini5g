@@ -43,3 +43,6 @@ TARGET_COMMON_QTI_COMPONENTS := \
     perf \
     telephony \
     wfd
+
+# VNDK
+PRODUCT_EXTRA_VNDK_VERSIONS := 30
