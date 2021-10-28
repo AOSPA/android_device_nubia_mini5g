@@ -31,17 +31,7 @@ def AddImage(info, basename, dest):
   common.ZipWriteStr(info.output_zip, name, data)
   info.script.AppendExtra('package_extract_file("%s", "%s");' % (name, dest))
 
-def AddImageRadio(info, basename, dest):
-  name = basename
-  data = info.input_zip.read("RADIO/" + basename)
-  common.ZipWriteStr(info.output_zip, name, data)
-  info.script.AppendExtra('package_extract_file("%s", "%s");' % (name, dest))
-
 def OTA_InstallEnd(info):
   info.script.Print("Patching firmware images...")
   AddImage(info, "vbmeta.img", "/dev/block/bootdevice/by-name/vbmeta")
-  AddImageRadio(info, "vendor.img", "/dev/block/bootdevice/by-name/vendor")
-  AddImageRadio(info, "modem.img", "/dev/block/bootdevice/by-name/modem")
-  AddImageRadio(info, "tz.mbn", "/dev/block/bootdevice/by-name/tz")
-  AddImageRadio(info, "km4.mbn", "/dev/block/bootdevice/by-name/keymaster")
   return
