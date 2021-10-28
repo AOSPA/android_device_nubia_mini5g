@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5c2d8eaa_b096d8b0",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-10-28T12:46:25Z",
+      "side": 0,
+      "message": "should be part of audio component if you\u0027re using it",
+      "revId": "0dd8bc191683fc38b50bf2a753b849ecda29e3ff",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
