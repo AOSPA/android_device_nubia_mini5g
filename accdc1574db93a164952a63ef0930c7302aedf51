@@ -121,6 +121,24 @@
       "parentUuid": "76a50be0_e72d9f28",
       "revId": "accdc1574db93a164952a63ef0930c7302aedf51",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f7849012_70ab6f9b",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-10-28T18:51:57Z",
+      "side": 1,
+      "message": "https://source.codeaurora.org/quic/la/device/qcom/qssi/commit/?h\u003dLA.QSSI.12.0.r1-04900-qssi.0\u0026id\u003d0c56eaaaf6bad33929f7c1d20d18b40432390ca2 seemingly https://review.lineageos.org/c/LineageOS/android_device_xiaomi_msm8996-common/+/287951",
+      "parentUuid": "7181edef_7f49de1f",
+      "revId": "accdc1574db93a164952a63ef0930c7302aedf51",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
