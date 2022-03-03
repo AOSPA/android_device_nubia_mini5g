@@ -53,6 +53,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5f77b6ff_490ac75d",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2022-03-03T00:14:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "39772a6a_eb18b3b0",
+      "revId": "accdc1574db93a164952a63ef0930c7302aedf51",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "57607bc3_5240d66d",
@@ -137,6 +155,24 @@
       "side": 1,
       "message": "https://source.codeaurora.org/quic/la/device/qcom/qssi/commit/?h\u003dLA.QSSI.12.0.r1-04900-qssi.0\u0026id\u003d0c56eaaaf6bad33929f7c1d20d18b40432390ca2 seemingly https://review.lineageos.org/c/LineageOS/android_device_xiaomi_msm8996-common/+/287951",
       "parentUuid": "7181edef_7f49de1f",
+      "revId": "accdc1574db93a164952a63ef0930c7302aedf51",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c0d1a31_31c57422",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2022-03-03T00:14:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f7849012_70ab6f9b",
       "revId": "accdc1574db93a164952a63ef0930c7302aedf51",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
