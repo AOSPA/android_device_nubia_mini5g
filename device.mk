@@ -36,6 +36,8 @@ PRODUCT_PACKAGES += \
     Mini5GFrameworks
 
 # QTI Components
+TARGET_USE_QTI_BT_STACK := true
+
 TARGET_COMMON_QTI_COMPONENTS := \
     bt \
     display \
